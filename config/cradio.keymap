@@ -108,9 +108,9 @@
         // Function keys + modifiers
        		fnc_layer {
 		bindings = <
-		&kp C_STOP &kp C_RW &kp C_PP   &kp C_FF     &kp C_BRI_INC      &kp F12 &kp F7 &kp F8 &kp F9 &kp SCROLLLOCK 
-		&sk LALT   &sk LGUI &sk LSHIFT &sk LCTRL    &kp C_BRI_DEC      &kp F11 &kp F4 &kp F5 &kp F6 &none
-		&kp C_MUTE &kp C_VOL_DN &none  &kp C_VOL_UP &none              &kp F10 &kp F1 &kp F2 &kp F3 &none
+		&kp C_STOP &kp C_RW     &kp C_PP     &kp C_FF     &kp C_BRI_INC      &kp F12 &kp F7 &kp F8 &kp F9 &kp SCROLLLOCK 
+		&sk LALT   &sk LGUI     &sk LSHIFT   &sk LCTRL    &kp C_BRI_DEC      &kp F11 &kp F4 &kp F5 &kp F6 &none
+		&kp C_MUTE &kp K_VOL_DN &kp K_VOL_UP &none   &none              &kp F10 &kp F1 &kp F2 &kp F3 &none
           				       &none        &none              &none  &none  
 		>;
 		};
