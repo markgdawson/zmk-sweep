@@ -7,7 +7,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include "keymap_italian.h"
+
+#define UK_PND LS(N3)            // £
+#define EURO RA(E)               // €
 
 // Layer definitions
     #define BASE 0
@@ -109,7 +111,7 @@
         // Low frequency symbols.
        		symbols_2_layer {
 		bindings = <
-		&kp CARET &kp UNDER &kp IT_PND &kp IT_EUR &kp HASH         &none &none &none &none &none 
+		&kp CARET &kp UNDER &kp UK_PND &kp EURO &kp HASH         &none &none &none &none &none 
 		&kp GRAVE &kp TILDE &kp BSLH &kp PIPE &kp AMPS         &none &none &none &none &none
 		&none &none &none &none &none		  &none &none &none &none &none
           				           												&none &none        	&none &none 
