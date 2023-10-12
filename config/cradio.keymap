@@ -97,9 +97,9 @@
         // Symbol Layer
        		sym_layer {
 		bindings = <
-		&kp EXCL &kp UK_AT   &kp UK_HASH &kp DLLR    &kp PRCNT	 &kp GRAVE       &kp C_CHAN_DEC &kp C_CHAN_INC &kp COLON &kp SEMI
-                &sk LALT &sk LGUI    &sk LSHIFT  &sk LCTRL   &kp CARET   &kp C_CHAN_LAST &kp LPAR       &kp LBRC       &kp LBKT  &kp MINUS
-		&none    &kp UK_BSLH &kp UK_PIPE &kp FSLH    &kp AMPS 	 &kp UK_TILDE    &kp RPAR       &kp RBRC       &kp RBKT  &kp UNDER
+		&kp EXCL &kp UK_AT   &kp UK_HASH &kp DLLR    &kp PRCNT	 &kp GRAVE     &kp C_CHAN_DEC &kp C_CHAN_INC &kp COLON &kp SEMI
+                &sk LALT &sk LGUI    &sk LSHIFT  &sk LCTRL   &kp CARET   &kp QMARK     &kp LPAR       &kp LBRC       &kp LBKT  &kp MINUS
+		&none    &kp UK_BSLH &kp UK_PIPE &kp FSLH    &kp AMPS 	 &kp UK_TILDE  &kp RPAR       &kp RBRC       &kp RBKT  &kp UNDER
 				     &mo NUM     &mo FNC     &trans      &trans
 		>;
 		};
