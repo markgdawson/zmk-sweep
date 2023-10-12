@@ -62,7 +62,7 @@
         combo_num {
 	    timeout-ms = <200>;
             key-positions = <31 33>;
-	    bindings = <&mo NUM>;
+	    bindings = <&mo FNC>;
 	};
 	// both left thumb keys
 	combo_settings {
@@ -91,7 +91,7 @@
 		&kp EXCL &kp UK_AT   &kp UK_HASH &kp DLLR    &kp PRCNT	 &kp GRAVE       &kp C_CHAN_DEC &kp C_CHAN_INC &kp COLON &kp SEMI
                 &sk LALT &sk LGUI    &sk LSHIFT  &sk LCTRL   &kp CARET   &kp C_CHAN_LAST &kp LPAR       &kp LBRC       &kp LBKT  &kp MINUS
 		&none    &kp UK_BSLH &kp UK_PIPE &kp FSLH    &kp AMPS 	 &kp UK_TILDE    &kp RPAR       &kp RBRC       &kp RBKT  &kp UNDER
-				     &mo FNC     &mo NUM     &trans      &trans
+				     &mo NUM     &mo FNC     &trans      &trans
 		>;
 		};
 
@@ -101,7 +101,7 @@
 		&kp ESC  &trans    &trans      &trans     &kp INS    	&kp PG_UP    &kp HOME &kp UP    &kp END     &kp CAPS
 		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &sk RALT 	&kp PG_DN    &kp LEFT &kp DOWN  &kp RIGHT   &kp DEL
 		&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB    &kp LC(V)     &kp LC(BSPC) &kp BSPC &kp TAB   &kp K_CMENU &kp PSCRN
-					       &trans     &kp LCTRL     &kp ENTER    &mo FNC 
+					       &trans     &kp LCTRL     &kp ENTER    &mo NUM 
 		>;
 		};
 
