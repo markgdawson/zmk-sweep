@@ -50,6 +50,15 @@
 				};
 		};
 
+    behaviors {
+        bothquotes: both_quotes {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BOTH_QUOTES";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
     combos {
         compatible = "zmk,combos";
 	// both right thumb keys
@@ -80,7 +89,7 @@
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B                &kp J &kp L  &kp U     &kp Y   &kp C_RECALL_LAST
 		&kp A &kp R &kp S &kp T &kp G                &kp M &kp N  &kp E     &kp I   &kp O
-		&kp Z &kp X &kp C &kp D &kp V                &kp K &kp H  &kp COMMA &kp DOT &kp SINGLE_QUOTE
+		&kp Z &kp X &kp C &kp D &kp V                &kp K &kp H  &kp COMMA &kp DOT &kp bothquotes
                                   &mo EXT &mt LSHIFT SPACE   &kp SPACE &sl SYM
 		>;
 		};
