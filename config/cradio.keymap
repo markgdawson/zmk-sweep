@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define EMACS_LEADER C_MEDIA_GUIDE
+
 #define UK_PND LS(N3)            // £
 #define EURO RA(E)               // €
 #define UK_PLUS MINUS
@@ -86,10 +88,10 @@
         // Base alpha layer
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P &kp B                &kp J &kp L  &kp U     &kp Y   &kp C_RECALL_LAST
-		&kp A &kp R &kp S &kp T &kp G                &kp M &kp N  &kp E     &kp I   &kp O
-		&kp Z &kp X &kp C &kp D &kp V                &kp K &kp H  &kp COMMA &kp DOT &kp bothquotes
-                                  &mo EXT &mt LSHIFT SPACE   &kp SPACE &sl SYM
+		&kp Q &kp W &kp F &kp P &kp B                      &kp J &kp L  &kp U     &kp Y   &kp C_RECALL_LAST
+		&kp A &kp R &kp S &kp T &kp G                      &kp M &kp N  &kp E     &kp I   &kp O
+		&kp Z &kp X &kp C &kp D &kp V                      &kp K &kp H  &kp COMMA &kp DOT &kp bothquotes
+                                  &mo EXT &mt LSHIFT EMACS_LEADER  &kp SPACE &sl SYM
 		>;
 		};
 
