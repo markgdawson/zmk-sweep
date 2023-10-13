@@ -69,6 +69,11 @@
             key-positions = <31 33>;
 	    bindings = <&mo FNC>;
 	};
+        combo_other {
+            timeout-ms = <300>;
+            key-positions = <32 33>;
+            bindings = <&mo OTHER>;
+        };
 	// both left thumb keys
 	combo_settings {
 	    timeout-ms = <300>;
@@ -84,7 +89,7 @@
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B         &kp J &kp L  &kp U     &kp Y   &none
-		&kp A &kp R &kp S &kp T &kp G         &kp M &kp SPACE  &kp E     &kp I   &kp O
+		&kp A &kp R &kp S &sk LSHIFT &kp G    &kp M &kp SPACE  &kp E     &kp I   &kp O
 		&kp Z &kp X &kp C &kp D &kp V         &kp K &kp H  &kp COMMA &kp DOT &none
                                   &mo EXT &kp LSHIFT  &kp SPACE &sl SYM
 		>;
