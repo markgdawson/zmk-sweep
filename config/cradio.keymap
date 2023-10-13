@@ -63,11 +63,6 @@
     combos {
         compatible = "zmk,combos";
 	// both right thumb keys
-        combo_other {
-            timeout-ms = <300>;
-            key-positions = <32 33>;
-            bindings = <&mo OTHER>;
-        };
 	// internal-left & external-right thumb keys
         combo_num {
 	    timeout-ms = <200>;
