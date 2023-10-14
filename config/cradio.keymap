@@ -50,16 +50,6 @@
                bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
            };
     };
-
-    behaviors {
-        bothquotes: both_quotes {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BOTH_QUOTES";
-            #binding-cells = <0>;
-            bindings = <&kp SINGLE_QUOTE>, <&kp DOUBLE_QUOTES>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-    };
     combos {
         compatible = "zmk,combos";
 	// both right thumb keys
